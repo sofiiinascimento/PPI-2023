@@ -1,0 +1,16 @@
+p{
+    color:#000005;
+    border: 10px solid rgb(241, 208, 255);
+}
+table, thead, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td:hover, span:hover{
+    background-color: aqua;
+}
+
+img{
+    width: 200px;
+}
