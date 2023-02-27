@@ -1,0 +1,12 @@
+table, thead,th,td{
+    border: 1px solid rgb(235, 6, 223);
+    border-collapse: collapse;
+}
+
+p{
+    color: rgb(15, 47, 7);
+    border: 5px solid rgb(241, 208, 255);
+}
+h3:hover{
+    background-color: blueviolet;
+}
