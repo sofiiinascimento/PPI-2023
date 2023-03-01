@@ -1,3 +1,73 @@
 span{
     color: red ;
 }
+#p01{
+    color: blue;
+}
+#p02{
+    color: green;
+}
+#p03{
+    color: chocolate;
+}
+#link02{
+    color: red;
+}
+
+a{
+    display: block;
+}
+
+.links {
+    background-color:#daf5e1;
+	border-radius:4px;
+	border:3px solid #80ccd9;
+	cursor:pointer;
+	color:#3d3247;
+	font-family:Verdana;
+	font-size:17px;
+	padding:7px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.links:hover{
+    font-size: 20px;
+    background-color:#2cc7db;
+}
+
+.div{
+    display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 10px solid rgba(255, 0, 0, 0.5);
+    padding: 20px;
+    outline: 2px dotted red;
+    outline-offset: 10px;
+    text-align: center;
+    margin: 30px;
+    background-color: rgb(100,106,500);
+    background-image: url("./vaquinha.jpg");
+    background-position: 70% 20%;
+
+ 
+}
+#div02{
+    outline-color: green;
+
+}
+
+#div03{
+    outline-color: #88076e;
+}
+
+
+/* 
+    Seletor {
+        propriedade: valor;
+    }
+
+    Elemento html
+    #id
+    .class /designer uma classe ou categoria
+*/
