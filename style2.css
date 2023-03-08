@@ -1,0 +1,23 @@
+div>div{
+    display: inline-block;
+    border: 1px solid rgb(30,0,255);
+}
+
+.box{
+    width: 30vw;
+    height: 30vh;
+    border: 1px solid yellowgreen;
+}
+
+#div1{
+    background-color: blueviolet;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+#div2{
+    background-color: coral;
+}
+#div3{
+    background-color: darkcyan;
+}
