@@ -13,6 +13,18 @@ box-sizing: border-box;}
     background-color: pink;
     width: 300px;
     height: 100vh;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    width: 300px;
+    height: 100vh;
 }
