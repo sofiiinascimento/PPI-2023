@@ -1,0 +1,17 @@
+Linha HTML 13:
+Ficou na cor vermelha porque o style do arquivo HTML ele prevalece sobre o style que é descrito do arquivo de CSS, o qual é a cor verde.
+
+Linha HTML 14:
+Como o style está junto ao parágrafo, no momento da declaração, ele vai estar na cor preta.
+
+Linha HTML 15:
+No arquivo CSS, foi definido como cor para esse parágrafo a cor azul ao ser identificado o seu id.
+
+Linha HTML 16:
+Foi definido para classe desse parágrafo, através do arquivo CSS, a cor amarela, prevalecendo o que é inserido no CSS, pois há idenficação da classe por ser uma junção de elementos.
+
+Linha HTML 17:
+É definido para uma junção de um grupo de elementos, que também são componentes, a cor laranja no arquivo CSS.
+
+Linha 18:
+O style ficou definido pelo o que é inserido no arquivo HTML, pois sobrescreve o arquivo CSS.

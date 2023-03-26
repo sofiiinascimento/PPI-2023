@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    text-shadow: 0.05em 0.06em 0.05em #c01515;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p, ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
