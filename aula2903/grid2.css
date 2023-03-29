@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    height: 100vw;
+    grid-template-areas: 
+    "box1 box1 box1 box1" 
+    "box2  box2    .      box3"
+    "box4 box4 box4 box4"   
+}
+
+.box1{
+    background-color: antiquewhite;
+    grid-area: box1;
+}
+
+.box2{
+    background-color: aquamarine;
+    grid-area: box2;
+}
+
+.box3{
+    background-color: darkkhaki;
+    grid-area: box3;
+}
+
+.box4{
+    background-color: thistle;
+    grid-area: box4;
+}

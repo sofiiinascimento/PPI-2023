@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    height: 100vw;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1.5fr 0.50fr 1fr 1fr 1fr;
+    grid-template-rows: 200px auto auto 200px;
+    grid-template-areas: 
+    "header header header header header header"
+    "menu menu menu menu menu menu"
+    ". main-content main-content main-content slidebar ."
+    ". twin twin gemeo gemeo ."
+    "footer footer footer footer footer footer";
+
+    background: url(/imagem/ceuestrelado.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+.menu{
+    background-color: rgba(215, 247, 250, 0.685);
+    grid-area: menu;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul li{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(182, 205, 35, 0.505);
+    color: white;
+    font-size: 15pt;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+.box1{
+    background-color: antiquewhite;
+    grid-area: main-content;  
+}
+
+.box2{
+    background-color: aquamarine;
+    grid-area: slidebar;
+}
+
+.box3{
+    background-color: darkkhaki;
+    grid-area: twin;
+}
+
+.box4{
+    background-color: darkkhaki;
+    grid-area: gemeo;
+}
+
+.box5{
+    background-color: blue;
+    grid-area: footer;
+}
+
+.box6{
+    background-color: yellow;
+    grid-area: header;
+    background-image: url(/imagem/castelo.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+}
