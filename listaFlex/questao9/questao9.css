@@ -1,0 +1,37 @@
+.caixa{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    text-align: center;
+}
+
+.top-right{
+    top: 0;
+    right: 0;
+    background-color: antiquewhite;
+}
+
+.top-left{
+    top: 0;
+    left: 0;
+    background-color: beige;
+}
+
+.bottom-right{
+    bottom: 0;
+    right: 0;
+    background-color: burlywood;
+}
+
+.bottom-left{
+    bottom: 0;
+    left: 0;
+    background-color: wheat;
+}
+
+.center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aqua;
+}

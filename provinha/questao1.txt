@@ -1,0 +1,4 @@
+WEB: é um serviço de provimento de documentos e páginas sobre a internet, por meio de referências(links) de documentos, utiliza o protocolo http
+Internet: uma rede de computadores que interconecta computadores globalmente.
+HTTP: é um protocolo texto utilizado para troca de mensagens entre cliente e servidor na WEB.
+Requisição: é a ação de solicitar algo. No contexto do protocolo HTTP, requisição é uma mensagem enviada pelo cliente informando ao servidor descrevendo a natureza da solicitação de documentos e contendo dados preenchidos pelo usuário ou documento HTML. Toda a requisição é processada pelo servidor que emite uma resposta http response, nesta esta incluida como conteúdo o resultado do processamento da requisição bem com um código que informa o status do processamento da requisição.

@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    height: calc(100% / 3);
+  }
+  
+  .box {
+    border: 2px solid black;
+  }
+  
+  .box1 {
+    width: 150px;
+    background-color: aquamarine;
+  }
+  
+  .box2 {
+    flex-grow: 1;
+    background-color: aqua;
+  }
