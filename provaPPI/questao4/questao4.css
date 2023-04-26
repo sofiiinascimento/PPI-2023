@@ -1,0 +1,17 @@
+.bandjapao{
+    width: 500px;
+    height: 300px;
+    background-color: white ;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+.circulo{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: red; 
+    position: absolute;
+    margin: 50px 170px;
+}
