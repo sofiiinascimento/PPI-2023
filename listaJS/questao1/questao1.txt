@@ -1,0 +1,1 @@
+JavaScript pode ser executado em um navegador WEB ou em um servidor utilizando o Node.js. Quando o código em js é encontrado por um navegador ou servidor em uma página da WEB ou vindo de um arquivo .js, eles passam esse código para o mecanismo JavaScript (como o V8 que é utilizado pelo Google Chrome) para ser interpretado e executado. 

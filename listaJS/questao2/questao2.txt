@@ -1,0 +1,46 @@
+
+- `window`: é o objeto que representa a janela do navegador. Ele contém informações sobre a janela, como a altura e a largura, e também fornece acesso a recursos como o DOM, o console, entre outros. Algumas propriedades e métodos importantes incluem:
+
+  - `window.innerHeight` e `window.innerWidth`: retornam a altura e a largura da janela do navegador, respectivamente.
+  - `window.location`: representa a URL atual da página e permite que você acesse ou modifique a URL.
+  - `window.alert()`: exibe um alerta na janela do navegador.
+  - `window.document`: representa o documento HTML que está sendo exibido na janela e permite que você acesse ou modifique o DOM.
+
+- `document`: é o objeto que representa o documento HTML que está sendo exibido na janela do navegador. Ele fornece acesso ao DOM, que é a representação em árvore dos elementos HTML na página. Algumas propriedades e métodos importantes incluem:
+
+  - `document.getElementById()`: retorna um elemento HTML com o ID especificado.
+  - `document.querySelector()`: retorna o primeiro elemento HTML que corresponde ao seletor CSS especificado.
+  - `document.createElement()`: cria um novo elemento HTML especificado pelo nome de tag.
+  - `document.body`: representa o elemento `body` da página.
+
+- `location`: é o objeto que representa a URL atual da página. Ele permite que você acesse ou modifique a URL atual. Algumas propriedades e métodos importantes incluem:
+
+  - `location.href`: retorna a URL atual da página.
+  - `location.reload()`: recarrega a página atual.
+  - `location.replace()`: carrega uma nova página e substitui a entrada no histórico do navegador.
+
+- `history`: é o objeto que representa o histórico de navegação do navegador. Ele permite que você navegue de volta e avance na história do navegador. Algumas propriedades e métodos importantes incluem:
+
+  - `history.back()`: volta uma página no histórico do navegador.
+  - `history.forward()`: avança uma página no histórico do navegador.
+  - `history.length`: retorna o número de entradas no histórico do navegador.
+
+Aqui está um exemplo de como você pode usar esses recursos:
+
+```
+// Exibe a largura e a altura da janela do navegador
+console.log(window.innerWidth);
+console.log(window.innerHeight);
+
+// Modifica o conteúdo do elemento com o ID "example"
+document.getElementById("example").innerHTML = "Novo conteúdo";
+
+// Redireciona o navegador para uma nova URL
+location.href = "https://www.exemplo.com";
+
+// Navega para trás e para frente no histórico do navegador
+history.back();
+history.forward();
+```
+
+Esse é apenas um exemplo simples, mas esses recursos são muito úteis ao trabalhar com JavaScript em um navegador. Eles permitem que você interaja com a página e modifique seu comportamento de várias maneiras.
