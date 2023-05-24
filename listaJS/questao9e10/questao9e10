@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        #cima{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+		input {
+			padding: 10px;
+			font-size: 15px;
+            margin: 5px;
+            border: 01px solid black;
+		}
+		button {
+			padding: 5px;
+			font-size: 15px;
+			background-color: rgb(26, 87, 76);
+			color: white;
+			border: none;
+			cursor: pointer;
+            border: 1.5px solid black;
+            border-radius: 15px;
+		}
+		ul {
+			margin-top: 20px;
+			padding-left: 0;
+			list-style-type: none;
+		}
+		li {
+			margin-bottom: 10px;
+            border: 2px solid black;
+            height: 50px;
+            width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(17, 27, 79);
+            color: azure;
+            border-radius: 50%;
+            font-family:Arial, Helvetica, sans-serif
+		}
+        .botao2{
+            opacity: 0;
+            left: 120px;
+            position: absolute;
+        }
+        .botao2:hover{
+            opacity: 1;
+        }
+       
+	</style>
+</head>
+<body class="container">
+
+    <div id="cima">
+        <input type="text" id="item" placeholder="Digite quaquer coisa...">
+        <button class="botao"  onclick="addItem()" >Quero inserir e ser feliz</button>
+    </div>
+
+    <ul id="listar"></ul>
+
+</body>
+    <script>
+        function addItem() {
+        var item = document.getElementById("item").value
+        
+        var lista = document.getElementById("listar");
+        var elemento = document.createElement("li");
+        var texto = document.createTextNode(item);
+
+        var botao = document.createElement("button");
+        botao.classList.add("botao2");
+        botao.innerHTML = "Exluir";
+        botao.onclick = function() {
+            lista.removeChild(botao.parentNode);
+        }
+
+        elemento.appendChild(texto);
+        elemento.appendChild(botao);
+        lista.appendChild(elemento);
+        document.getElementById("item").value = "";
+ 
+    }
+    </script>
+</html>
