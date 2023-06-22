@@ -1,0 +1,55 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f264;
+    }
+
+    .container {
+      width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgba(225, 225, 220, 0.703);
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-top: 60px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .input-group {
+      margin-bottom: 15px;
+    }
+
+    .input-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .input-group input {
+      width: 95%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .btnCadastrar{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+      padding: 10px;
+      font-size: 16px;
+      width: 30%;
+      border: none;
+      background-color: #4CAF50;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
